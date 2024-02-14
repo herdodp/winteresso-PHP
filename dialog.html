@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<title>Dialog Guide</title>
+</head>
+<body>
+    
+    <div class="subheader">
+        <h1>winteresso framework documentation</h1>
+    </div>
+    
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="navigation">
+                <ul>
+                    <li>
+                        About
+                        <ul>
+                            <li><a href="index.html">Tentang winteresso</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        Download
+                        <ul>
+                            <li><a href="configuration/config.html">Download Library</a></li>
+                            <li><a href="configuration/config.html#framework">Download Framework</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        Libraries Guide
+                        <ul>
+                            <li><a href="database.html">Connect database</a></li>
+                            <li><a href="database.html#checkconnect">Check connect database</a></li>
+                            <li><a href="database.html#readdatabase">Read Database table</a></li>
+                            <li><a href="database.html#insertdatabase">Insert to database</a></li>
+                            <li><a href="dialog.html">Show dialog onclick</a></li>
+                            <li><a href="dialog.html#showdialognotification">Show dialog notification</a></li>
+                            <li><a href="dialog.html#showdialogconfirm">Show dialog confirm</a></li>
+                            <li><a href="abstract.html">Logout</a></li>
+                            <li><a href="abstract.html#hideresubmission">Hide resubmission form</a></li>
+                            <li><a href="abstract.html#printany">Print any</a></li>
+                        </ul>
+                            
+                    </li>
+                </ul>
+        </div>
+            
+        </div>
+        
+        <div class="content">
+            <div class="lead">
+                <h2>Show Dialog Onclick</h2>
+                <p>- digunakan untuk menampilkan pop up alert</p>
+                <p><b>syntax : </b>WIN_DIALOG_ONCLICK("your text")</p>
+                
+                <p>keterangan:</p>
+                <p>your text : masukkan text yang ingin ditampilkan</p>
+                <p>Example :  &lt;button onclick="WIN_DIALOG_ONCLICK('ingin keluar?', 'testwinteresso.php');"&gt;keluar&lt;/button&gt;</p>
+               
+            </div>
+
+
+            <div class="lead" id="showdialognotification">
+                <h2>Show Dialog Notification</h2>
+                <p>- digunakan untuk menampilkan pop up alert</p>
+                <p><b>syntax : </b>WIN_DIALOG("your text")</p>
+                
+                <p>keterangan:</p>
+                <p>your text : masukkan text yang ingin ditampilkan</p>
+            </div>
+
+            <div class="lead" id="showdialogconfirm">
+                <h2>Show Dialog Confirm</h2>
+                <p>- digunakan untuk mengambil semua data pada table database</p>
+                <p><b>syntax : </b>WIN_CONFIRM_MOVE("your text", "destination")</p>
+                
+                <p>keterangan:</p>
+                <p>your text : masukkan text konfirmasi</p>
+                <p>destination : masukkan tujuan perpindahan halaman web jika bernilai true</p> 
+            </div>
+
+
+
+            
+            
+           
+        
+    </div>
+          
+    <div class="footer">
+        <div>Winteresso framework - by vebtoo technology</div>
+        <div>Latest version 1.6 (latest update 17 august 2022)</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container {
+	
+	justify-content: center;
+}
+.container-child{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.login-header {
+	display: flex;
+	margin-top: 100px;
+	flex-direction: column;
+	
+}
+.test {
+	margin-top: 100px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+
+
+.example {
+	display: flex;
+	justify-content: center;
+	font-weight: bolder;
+	text-align: center;
+	color: #000000;
+}
+.table {
+	display: flex;
+	justify-content: center;
+}

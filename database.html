@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<title>Database Guide</title>
+</head>
+<body>
+    
+    <div class="subheader">
+        <h1>winteresso framework documentation</h1>
+    </div>
+    
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="navigation">
+                <ul>
+                    <li>
+                        About
+                        <ul>
+                            <li><a href="index.html">Tentang winteresso</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        Download
+                        <ul>
+                            <li><a href="configuration/config.html">Download Library</a></li>
+                            <li><a href="configuration/config.html#framework">Download Framework</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        Libraries Guide
+                        <ul>
+                            <li><a href="database.html">Connect database</a></li>
+                            <li><a href="database.html#checkconnect">Check connect database</a></li>
+                            <li><a href="database.html#readdatabase">Read Database table</a></li>
+                            <li><a href="database.html#insertdatabase">Insert to database</a></li>
+                            <li><a href="dialog.html#showdialogonclick">Show dialog onclick</a></li>
+                            <li><a href="dialog.html#showdialognotification">Show dialog notification</a></li>
+                            <li><a href="dialog.html#showdialogconfirm">Show dialog confirm</a></li>
+                            <li><a href="abstract.html">Logout</a></li>
+                            <li><a href="abstract.html#hideresubmission">Hide resubmission form</a></li>
+                            <li><a href="abstract.html#printany">Print any</a></li>
+                        </ul>
+                            
+                    </li>
+                </ul>
+        </div>
+            
+        </div>
+        
+        <div class="content">
+            <div class="lead">
+                <h2>Connect Database</h2>
+                <p>- digunakan untuk terhubung ke database</p>
+                <p><b>syntax : </b>WIN_CONNECT_DB("servername", "username", "password", "database")</p>
+                <p>var global : $koneksi</p>
+                <p>keterangan:</p>
+                <p>servername : masukkan servername host</p>
+                <p>username : masukkan username host</p>
+                <p>password : masukkan password host</p>
+                <p>database : masukkan database yang digunakan</p>
+                <p>variable global '$koneksi' digunakan untuk pada parameter SQL, dll</p>
+            </div>
+
+
+            <div class="lead" id="checkconnect">
+                <h2>Check connect Database</h2>
+                <p>- digunakan untuk mengecek berhasil terhubung ke database atau tidak</p>
+                <p><b>syntax : </b>WIN_CONNECT_DB_CHECK("servername", "username", "password", "database")</p>
+                
+                <p>keterangan:</p>
+                <p>servername : masukkan servername host</p>
+                <p>username : masukkan username host</p>
+                <p>password : masukkan password host</p>
+                <p>database : masukkan database yang digunakan</p>
+                <p>Jika pengecekan telah selesai, hapus '_CHECK' pada syntax</p>
+            </div>
+
+            <div class="lead" id="readdatabase">
+                <h2>Read Database Table</h2>
+                <p>- digunakan untuk mengambil semua data pada table database</p>
+                <p><b>syntax : </b>WINREAD_DB("first variable", "second variable", "table on database")</p>
+                
+                <p>keterangan:</p>
+                <p>first variable : masukkan nama variable pertama (bebas)</p>
+                <p>second variable : masukkan nama variable kedua (bebas)</p>
+                <p>table on database : masukkan nama table yang akan dilakukan pengambilan data pada database</p>
+            </div>
+
+            <div class="lead" id="insertdatabase">
+                <h2>Insert to Database (username and password only for register)</h2>
+                <p>- digunakan untuk memasukkan username dan password ke dalam table database</p>
+                <p><b>syntax : </b>WINREAD_USERPASS("table_database", "username_field", "username_input", "password_field", "password_input")</p>
+                
+                <p>keterangan:</p>
+                <p>table_database : masukkan nama table database</p>
+                <p>username_field : masukkan nama field untuk data username pada database</p>
+                <p>username_input : masukkan username yang akan dimasukkan kedalam database</p>
+                <p>password_field : masukkan nama field untuk data password pada database</p>
+                <p>password_input : masukkan password yang akan dimasukkan kedalam database</p>
+            </div>
+
+
+            
+            
+           
+        
+    </div>
+          
+    <div class="footer">
+        <div>Winteresso framework - by vebtoo technology</div>
+        <div>Latest version 1.6 (latest update 17 august 2022)</div>
+    </div>
+</body>
+</html>
